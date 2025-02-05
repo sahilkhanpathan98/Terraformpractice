@@ -3,8 +3,4 @@ resource "aws_instance" "teraEc2" {
   instance_type = var.instance_type
   key_name = var.key_name
   
-  tags = {
-    # to give name to the resource in main file
-    Name - "pathan"
-  }
 }
